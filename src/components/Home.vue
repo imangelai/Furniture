@@ -38,7 +38,7 @@ export default {
 
             <div class="mb-6 mt-25 space-y-3 sm:mb-8 sm:space-y-4">
                 <h1 class="max-w-3xl text-2xl font-semibold leading-tight sm:text-3xl md:text-4xl lg:text-3xl">
-                    Revitalize your living space with a fresh touch
+                    Revitalize your living space with a fresh touch.
                 </h1>
 
                 <p class="text-base text-gray-600 sm:text-lg md:text-xl">
