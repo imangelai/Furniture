@@ -46,12 +46,13 @@ export default {
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 sm:gap-5 lg:gap-6">
+            <div class="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 ">
 
                 <div v-for="furniture in furnitures" :key="furniture.id"
-                    class="group relative overflow-hidden rounded-lg">
+                
+                    class="group relative cursor-pointer overflow-hidden rounded-lg">
                     <img :src="furniture.img" :alt="furniture.name"
-                        class="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-105 sm:h-80 md:h-96 lg:h-[32rem] xl:h-[36rem]" />
+                        class="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-105 sm:h-80 md:h-96 lg:h-128 xl:h-144" />
 
                     <p
                         class="absolute left-3 top-3 z-10 rounded-md bg-white px-4 py-2 text-sm font-medium shadow-sm sm:left-4 sm:top-4 sm:px-5 sm:text-base">
@@ -75,18 +76,18 @@ export default {
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:gap-6">
+            <div class="grid grid-cols-1  sm:grid-cols-2 ">
 
                 <div class="overflow-hidden rounded-lg">
                     <img src="https://i.pinimg.com/736x/ef/8b/0f/ef8b0f8fd65ec906855bf6b391c1b0cf.jpg"
                         alt="Inspiring interior design"
-                        class="h-72 w-full object-cover transition-transform duration-300 hover:scale-105 sm:h-80 md:h-96 lg:h-[32rem]" />
+                        class="h-72 w-full object-cover cursor-pointer transition-transform duration-300 hover:scale-105 sm:h-80 md:h-96 lg:h-128" />
                 </div>
 
                 <div class="overflow-hidden rounded-lg">
                     <img src="https://i.pinimg.com/1200x/75/6e/05/756e05531a80f7d76d2ee99f52941262.jpg"
                         alt="Modern home furniture and décor"
-                        class="h-72 w-full object-cover transition-transform duration-300 hover:scale-105 sm:h-80 md:h-96 lg:h-[32rem]" />
+                        class="h-72 w-full object-cover cursor-pointer transition-transform duration-300 hover:scale-105 sm:h-80 md:h-96 lg:h-128" />
                 </div>
 
             </div>

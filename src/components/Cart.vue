@@ -44,11 +44,8 @@ export default {
                 My Cart
             </h1>
 
-            <h1 class="text-xl font-serif font-semibold sm:text-2xl md:text-3xl">
-                Total: ₱ {{ Number(totalAll || 0).toLocaleString('en-PH', {
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 2
-                }) }}
+            <h1 class="text-xl font-sans font-semibold sm:text-2xl md:text-3xl">
+                Total: ₱ {{totalAll }}
             </h1>
         </div>
 
@@ -70,21 +67,19 @@ export default {
             <div v-else class="flex flex-col gap-4">
                 <div v-for="(put, index) in receivedproducts" :key="put.id ?? `${put.name}-${index}`"
                     class="flex w-full flex-col gap-4 rounded-lg bg-white p-4 shadow-md transition duration-300 hover:shadow-lg sm:flex-row sm:items-center sm:justify-between sm:gap-5">
+                    
                     <!-- Product Information -->
                     <div class="flex min-w-0 flex-1 items-center gap-3 sm:gap-4">
                         <img :src="put.img" :alt="put.name"
-                            class="h-16 w-16 shrink-0 rounded-md object-cover sm:h-[71px] sm:w-[71px]" />
+                            class="h-16 w-16 shrink-0 rounded-md object-cover sm:h-17.75 sm:w-17.75" />
 
                         <div class="min-w-0 flex-1">
-                            <p class="break-words text-base font-medium sm:text-lg">
+                            <p class="wrap-break- text-base font-medium sm:text-lg">
                                 {{ put.name }}
                             </p>
 
                             <p class="mt-1 text-base text-gray-600 sm:text-lg">
-                                ₱ {{ Number(put.price).toLocaleString('en-PH', {
-                                    minimumFractionDigits: 2,
-                                    maximumFractionDigits: 2
-                                }) }}
+                                ₱ {{put.price }}
                             </p>
                         </div>
                     </div>

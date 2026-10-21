@@ -21,20 +21,20 @@ export default {
                 </h1>
 
                 <p class="text-justify text-base leading-relaxed text-gray-700 sm:text-lg md:text-xl">
-                    Started in 1971 by Mrs. Rosita T. Uy as a foam manufacturer in Cebu,
-                    Mandaue Foam has rapidly grown over the past 50 years because of its
+                    Started in 1971 by Ms. Angel Clarido and Ms. Crystal Filamen as a foam manufacturer in Cebu,
+                    Modern Furniture Finds has rapidly grown over the past 50 years because of its
                     commitment to provide its customers with quality and value for money
-                    products. Today, Mandaue Foam is one of the country's top 1000
+                    products. Today, Maodern Furniture Finds is one of the country's top 1000
                     corporations and has over 30 factories and showrooms nationwide.
-                    Its trademark products include its signature Flex Foam and Hotel
-                    Quality Gala Bed Mattress.
+                    Its trademark products include its signature Living room sofa and Hotel
+                    Quality Beds.
                 </p>
 
                 <p class="text-justify text-base leading-relaxed text-gray-700 sm:text-lg md:text-xl">
-                    Soon after it started, Mandaue Foam sensed a need in the market for
+                    Soon after it started, Modern Furniture Finds sensed a need in the market for
                     a more complete home store and it began to expand and diversify its
-                    product lines to include pillows, sofas, dining tables, bed frames,
-                    and other small home items. Today, Mandaue Foam continues to augment
+                    product lines to include sofas, tables, bed, and dining tables & chairs. 
+                    Today, Mandaue Foam continues to augment
                     its product lines and innovate by offering customized furniture
                     among others.
                 </p>

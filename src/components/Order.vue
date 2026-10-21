@@ -33,11 +33,11 @@ export default {
         </h1>
 
         <div class="flex w-full justify-center">
-            <div class="h-fit min-h-[300px] w-full rounded-lg bg-[#D9D9D9] p-4 sm:p-6 lg:p-8">
+            <div class="h-fit min-h-75 w-full rounded-lg bg-[#D9D9D9] p-4 sm:p-6 lg:p-8">
 
                 <div
                     v-if="!orderlist || orderlist.length === 0"
-                    class="flex min-h-[250px] flex-col items-center justify-center text-center"
+                    class="flex min-h-62.5 flex-col items-center justify-center text-center"
                 >
                     <p class="text-lg font-semibold text-gray-700 sm:text-xl">
                         No orders yet.
@@ -57,10 +57,10 @@ export default {
                             <img
                                 :src="order.img"
                                 :alt="order.name"
-                                class="h-16 w-16 shrink-0 rounded-md object-cover sm:h-[71px] sm:w-[71px]"
+                                class="h-16 w-16 shrink-0 rounded-md object-cover sm:h-17.75 sm:w-17.75"
                             >
 
-                            <p class="break-words text-base font-semibold sm:text-lg">
+                            <p class="wrap-break-word text-base font-semibold sm:text-lg">
                                 {{ order.name }}
                             </p>
                         </div>
@@ -73,7 +73,7 @@ export default {
                             <button
                                 v-if="displayButton"
                                 @click="cancel(index)"
-                                class="h-9 w-24 shrink-0 cursor-pointer rounded-md bg-black px-3 text-sm text-white transition duration-300 hover:scale-105 hover:bg-amber-800 sm:w-[125px] sm:text-base"
+                                class="h-9 w-24 shrink-0 cursor-pointer rounded-md bg-black px-3 text-sm text-white transition duration-300 hover:scale-105 hover:bg-amber-800 sm:w-31.25 sm:text-base"
                             >
                                 Cancel
                             </button>

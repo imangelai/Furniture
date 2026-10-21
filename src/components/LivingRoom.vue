@@ -17,7 +17,7 @@ export default {
         <div class="h-fit">
             <h1 class="text-2xl px-3 font-serif italic">Living Room Furnitures</h1>
         
-            <div class="grid grid-cols-4 flex flex-col gap-5 mt-5">
+            <div class="grid grid-cols-4 gap-5 mt-5">
                 <div v-for="add in sendToShop" :key="add.id" class="flex justify-center">
                     <div class="shadow-lg bg-slate-200 w-80 h-fit flex flex-col gap-3">
                         <img :src="add.img" alt="" class="w-80 h-80 rounded-md">

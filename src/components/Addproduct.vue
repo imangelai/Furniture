@@ -47,7 +47,7 @@ export default {
         class="fixed inset-0 z-50 flex h-dvh w-full items-center justify-center bg-black/40 p-4 backdrop-blur-sm"></div>
 
     <!-- Modal Container -->
-    <div class="fixed inset-0 z-[60] flex h-dvh w-full items-center justify-center overflow-y-auto p-4 sm:p-6">
+    <div class="fixed inset-0 z-60 flex h-dvh w-full items-center justify-center overflow-y-auto p-4 sm:p-6">
         <div class="my-auto flex max-h-[90dvh] w-full max-w-lg flex-col overflow-y-auto rounded-xl bg-white p-4 shadow-2xl sm:p-6 md:p-8"
             @click.stop>
             <!-- Modal Content -->
