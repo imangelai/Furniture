@@ -11,6 +11,7 @@ import Cart from './components/Cart.vue'
 import Order from './components/Order.vue'
 import Footer from './components/Footer.vue'
 import Addproduct from './components/Addproduct.vue'
+import Gallery from './components/Gallery.vue'
 
 export default {
   components: {
@@ -26,6 +27,7 @@ export default {
     Order,
     Footer,
     Addproduct,
+    Gallery
   },
   data() {
     return {
@@ -141,7 +143,7 @@ export default {
 
   <Cart @checkout="checkOut" @gotoOrder="pushtoOrder" v-if="currentpage === 'Cart'" @minus="minusan"
     :receivedproducts="addTocart" :totalAll=this.totalCartprice />
-
+  <Gallery v-if="currentpage === 'Gallery'" />
   <Order v-if="currentpage === 'Order'" :orderlist="orderLists" />
 
   <LivingRoom v-if="currrentSection === 'living'" :sendToShop="addShop" />
