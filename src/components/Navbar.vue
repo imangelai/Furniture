@@ -85,7 +85,7 @@ export default {
                 <div class="flex shrink-0 items-center gap-2 sm:gap-3">
 
                     <button @click="navi('Cart')" type="button"
-                        class="flex h-10 items-center justify-center gap-1.5 rounded-md bg-yellow-600 px-2.5 transition duration-300 hover:scale-105 hover:bg-yellow-400 sm:gap-2 sm:px-4">
+                        class="flex h-10 items-center justify-center gap-1.5 rounded-md bg-yellow-600 px-2.5 transition duration-300 hover:scale-105 cursor-pointer hover:bg-yellow-400 sm:gap-2 sm:px-4">
                         <svg class="h-5 w-5 shrink-0 fill-white sm:h-6 sm:w-6" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 640 640" aria-hidden="true">
                             <path
@@ -98,7 +98,7 @@ export default {
                     </button>
 
                     <button @click="navi('Order')" type="button"
-                        class="flex h-10 items-center justify-center rounded-md bg-yellow-600 px-2.5 text-xs font-semibold text-white transition duration-300 hover:scale-105 hover:bg-yellow-400 sm:px-4 sm:text-sm">
+                        class="flex h-10 items-center justify-center rounded-md bg-yellow-600 px-2.5 text-xs font-semibold text-white transition duration-300 hover:scale-105 cursor-pointer hover:bg-yellow-400 sm:px-4 sm:text-sm">
                         MY ORDER
                     </button>
 
@@ -133,7 +133,7 @@ export default {
                     </div>
 
                     <button type="submit"
-                        class="h-10 shrink-0 rounded-md border border-white px-4 text-sm text-white transition hover:bg-white hover:text-yellow-900">
+                        class="h-10 shrink-0 rounded-md border border-white px-4 text-sm text-white transition cursor-pointer hover:bg-white hover:text-yellow-900">
                         Search
                     </button>
                 </form>
@@ -143,35 +143,35 @@ export default {
 
         <!-- Desktop Navigation -->
         <div class="hidden h-12 items-center justify-center bg-white shadow-lg lg:flex">
-            <div class="flex h-full w-full max-w-[1400px] items-center justify-evenly gap-4 px-6">
+            <div class="flex h-full w-full max-w-350 items-center justify-evenly gap-4 px-6">
 
                 <button @click="navi('Home')"
-                    class="whitespace-nowrap text-base transition hover:text-yellow-700 xl:text-lg">
+                    class="whitespace-nowrap text-base transition cursor-pointer hover:text-yellow-700 xl:text-lg">
                     Home
                 </button>
 
                 <button @click="navi('About')"
-                    class="whitespace-nowrap text-base transition hover:text-yellow-700 xl:text-lg">
+                    class="whitespace-nowrap text-base transition cursor-pointer hover:text-yellow-700 xl:text-lg">
                     About Us
                 </button>
 
                 <button @click="navi('Contact')"
-                    class="whitespace-nowrap text-base transition hover:text-yellow-700 xl:text-lg">
+                    class="whitespace-nowrap text-base transition cursor-pointer hover:text-yellow-700 xl:text-lg">
                     Contact Us
                 </button>
 
                 <button @click="navi('Products')"
-                    class="whitespace-nowrap text-base transition hover:text-yellow-700 xl:text-lg">
+                    class="whitespace-nowrap text-base transition cursor-pointer hover:text-yellow-700 xl:text-lg">
                     Shop
                 </button>
 
                 <button @click="navi('Products')"
-                    class="whitespace-nowrap text-base transition hover:text-yellow-700 xl:text-lg">
+                    class="whitespace-nowrap text-base transition cursor-pointer hover:text-yellow-700 xl:text-lg">
                     Featured Products
                 </button>
 
                 <button @click="navi('Gallery')"
-                    class="whitespace-nowrap text-base transition hover:text-yellow-700 xl:text-lg">
+                    class="whitespace-nowrap text-base transition cursor-pointer hover:text-yellow-700 xl:text-lg">
                     Gallery
                 </button>
 
@@ -200,32 +200,32 @@ export default {
             <div class="flex flex-col">
 
                 <button @click="navi('Home')"
-                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition hover:bg-yellow-50 hover:text-yellow-800">
+                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition cursor-pointer hover:bg-yellow-50 hover:text-yellow-800">
                     Home
                 </button>
 
                 <button @click="navi('About')"
-                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition hover:bg-yellow-50 hover:text-yellow-800">
+                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition cursor-pointer hover:bg-yellow-50 hover:text-yellow-800">
                     About Us
                 </button>
 
                 <button @click="navi('Contact')"
-                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition hover:bg-yellow-50 hover:text-yellow-800">
+                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition cursor-pointer hover:bg-yellow-50 hover:text-yellow-800">
                     Contact Us
                 </button>
 
                 <button @click="navi('Products')"
-                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition hover:bg-yellow-50 hover:text-yellow-800">
+                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition cursor-pointer hover:bg-yellow-50 hover:text-yellow-800">
                     Shop
                 </button>
 
                 <button @click="navi('Products')"
-                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition hover:bg-yellow-50 hover:text-yellow-800">
+                    class="border-b border-gray-100 px-3 py-3 text-left text-base transition cursor-pointer hover:bg-yellow-50 hover:text-yellow-800">
                     Featured Products
                 </button>
 
                 <button @click="navi('Gallery')"
-                    class="px-3 py-3 text-left text-base transition hover:bg-yellow-50 hover:text-yellow-800">
+                    class="px-3 py-3 text-left text-base transition cursor-pointer hover:bg-yellow-50 hover:text-yellow-800">
                     Gallery
                 </button>
 

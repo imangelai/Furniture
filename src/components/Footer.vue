@@ -92,10 +92,10 @@ export default {
                     </h4>
 
                     <ul class="space-y-4 text-sm">
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Home</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">About</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Pricing</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Features</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Home</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">About</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Pricing</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Features</a></li>
                     </ul>
                 </div>
 
@@ -106,11 +106,11 @@ export default {
                     </h4>
 
                     <ul class="space-y-4 text-sm">
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Sofas</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Bedroom Furniture</a>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Sofas</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Bedroom Furniture</a>
                         </li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Dining Furniture</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Living Room</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Dining Furniture</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Living Room</a></li>
                     </ul>
                 </div>
 
@@ -121,10 +121,10 @@ export default {
                     </h4>
 
                     <ul class="space-y-4 text-sm">
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">FAQs</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Quick Start</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Documentation</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">User Guide</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">FAQs</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Quick Start</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Documentation</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">User Guide</a></li>
                     </ul>
                 </div>
 
@@ -135,11 +135,11 @@ export default {
                     </h4>
 
                     <ul class="space-y-4 text-sm">
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">News</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Tips &amp; Tricks</a>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">News</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Tips &amp; Tricks</a>
                         </li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">New Updates</a></li>
-                        <li><a href="#" class="text-gray-600 transition hover:text-yellow-800">Events</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">New Updates</a></li>
+                        <li><a href="#" class="text-gray-600 transition cursor-pointer hover:text-yellow-800">Events</a></li>
                     </ul>
                 </div>
 
@@ -151,7 +151,7 @@ export default {
 
                     <span class="text-xs leading-relaxed text-gray-500 sm:text-sm">
                         ©
-                        <a href="#" class="font-medium transition hover:text-yellow-800">
+                        <a href="#" class="font-medium transition cursor-pointer hover:text-yellow-800">
                             Modern Furniture Finds
                         </a>
                         2026. All rights reserved.
@@ -159,17 +159,17 @@ export default {
 
                     <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 sm:gap-x-8">
                         <li>
-                            <a href="#" class="text-xs text-gray-500 transition hover:text-yellow-800 sm:text-sm">
+                            <a href="#" class="text-xs text-gray-500 transition cursor-pointer hover:text-yellow-800 sm:text-sm">
                                 Terms
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="text-xs text-gray-500 transition hover:text-yellow-800 sm:text-sm">
+                            <a href="#" class="text-xs text-gray-500 transition cursor-pointer hover:text-yellow-800 sm:text-sm">
                                 Privacy
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="text-xs text-gray-500 transition hover:text-yellow-800 sm:text-sm">
+                            <a href="#" class="text-xs text-gray-500 transition cursor-pointer hover:text-yellow-800 sm:text-sm">
                                 Cookies
                             </a>
                         </li>

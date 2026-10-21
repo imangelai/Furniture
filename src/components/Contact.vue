@@ -39,7 +39,7 @@ export default {
 
                 <!-- Address -->
                 <div
-                    class="mt-6 flex items-start gap-3 break-words text-sm text-gray-600 dark:text-gray-400 sm:text-base">
+                    class="mt-6 flex items-start gap-3 wrap-break-word text-sm text-gray-600 dark:text-gray-400 sm:text-base">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="mt-1 h-5 w-5 shrink-0">
                         <path stroke-linecap="round" stroke-linejoin="round"
