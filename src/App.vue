@@ -11,7 +11,6 @@ import Cart from './components/Cart.vue'
 import Order from './components/Order.vue'
 import Footer from './components/Footer.vue'
 import Addproduct from './components/Addproduct.vue'
-import Gallery from './components/Gallery.vue'
 
 export default {
   components: {
@@ -27,7 +26,6 @@ export default {
     Order,
     Footer,
     Addproduct,
-    Gallery,
   },
   data() {
     return {
@@ -149,8 +147,7 @@ export default {
   <LivingRoom v-if="currrentSection === 'living'" :sendToShop="addShop" />
   <BedRoom v-if="currrentSection === 'bedroom'" :sendtoKwarto="addKwarto" />
   <DiningRoom v-if="currrentSection === 'dining'" :sentoKusina="addKusina" />
-  <Addproduct v-if="addProduct" @close="closemodaal" @addMe="addP" @toCategories="shops" :categori="this.categories" />
-  <Gallery v-if="currentpage === 'Gallery'" />
   <Footer />
+  <Addproduct v-if="addProduct" @close="closemodaal" @addMe="addP" @toCategories="shops" :categori="this.categories" />
 
 </template>
